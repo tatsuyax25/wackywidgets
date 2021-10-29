@@ -5,14 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wacky Widgets</title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    
 </head>
 <body>
     <h1>Wacky Widgets</h1>
     <h3>No Widgets Exist</h3><hr>
     <h4>Add Widget</h4>
     <table>
-        
+        {% if widget_list|length == 0 %}
+
+        {% else %}
+
+        {% endif %}
         
     </table>
 </body>
