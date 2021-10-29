@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
 </head>
 <body>
-    <table></table>
+    <h1>Wacky Widgets</h1>
+    <h3>No Widgets Exist</h3><hr>
+    <table>
+        {% if widget_list|length == 0 %}
+        
+        {% else %}
+
+        {% endif %}
+    </table>
 </body>
 </html>
